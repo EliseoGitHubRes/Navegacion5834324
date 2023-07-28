@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacion5834324.Dinosaurio"
+             Title="Dinosaurio">
+    <VerticalStackLayout Spacing="15" Padding="30,0">
+        <Label Text="DINOSAURIO"
+               FontSize="30"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               TextColor="MediumPurple"/>
+        <Image Source="dinosaurio.png"
+               HeightRequest="200"
+               WidthRequest="300"
+               HorizontalOptions="Center"/>
+        
+        <Label Text="Digite el nombre del dinosuario"
+               FontSize="15"/>
+        <Entry x:Name="NDino" Placeholder="Nombre"
+               Keyboard="Text"/>
+        
+        <Label Text="Digite el peso en KG"/>
+        <Entry x:Name="pesKg" Placeholder="Peso"
+               Keyboard="Numeric"/>
+        
+        <Label Text="Digite la altura en MTS"/>
+        <Entry x:Name="altMts" Placeholder="Altura"
+               Keyboard="Numeric"/>
+
+        <Label Text="Nombre del dinosaurio: "
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               TextColor="MediumPurple"
+               FontSize="18"
+               x:Name="dinoNom"/>
+        
+        <Label Text="Peso en LB: "
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               TextColor="MediumPurple"
+               FontSize="18"
+               x:Name="pesoLb"/>
+        
+        <Label Text="Altura en CM: "
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               TextColor="MediumPurple"
+               FontSize="18"
+               x:Name="altCm"/>
+
+        <Button Text="Calcular"
+                BackgroundColor="White"
+                BorderColor="MediumPurple"
+                BorderWidth="3"
+                CornerRadius="30"
+                Clicked="Button_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

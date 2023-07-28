@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacion5834324.Acerca"
+             Title="Acerca">
+    <VerticalStackLayout Spacing="25" Padding="30,0">
+        <Label Text="INFORMACION"
+               FontSize="25"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               TextColor="White"/>
+        <Image Source="yo.png" 
+               HeightRequest="250"
+               WidthRequest="300"
+               HorizontalOptions="Center"/>
+
+        <Label  Text="Instituto Nacional Cantón Lourdes" HorizontalOptions="Center" FontAttributes="Bold" TextColor="White" 
+                FontSize="18"/>
+        <Label  Text="Grado: 3° Desarrollo de Software" HorizontalOptions="Center" FontAttributes="Bold" TextColor="White" 
+                FontSize="18"/>
+        <Label  Text="Nombre: Eliseo Isaí Serrano Guzmán" HorizontalOptions="Center" FontAttributes="Bold" TextColor="White" 
+                FontSize="18"/>
+        <Label  Text="Correo: eliseoserrano42@gmail.com" HorizontalOptions="Center" FontAttributes="Bold" TextColor="White" 
+                FontSize="18"/>
+        <Label  Text="Número: 7143-4278" HorizontalOptions="Center" FontAttributes="Bold" TextColor="White" 
+                FontSize="18"/>
+        <Label  Text="NIE: 5834324" HorizontalOptions="Center" FontAttributes="Bold" TextColor="White" 
+                FontSize="18"/>
+        <Label  Text="Edad: 18" HorizontalOptions="Center" FontAttributes="Bold" TextColor="White" 
+                FontSize="18"/>
+        <Label  Text="Año: 2023" HorizontalOptions="Center" FontAttributes="Bold" TextColor="White" 
+                FontSize="18"/>
+
+    </VerticalStackLayout>
+</ContentPage>

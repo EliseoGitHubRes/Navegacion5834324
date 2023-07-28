@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacion5834324.Superficie"
+             Title="Superficie">
+    <VerticalStackLayout Spacing="25" Padding="30,0">
+        <Label Text="SUPERFICIE DE UN TRIANGULO" 
+               FontSize="30"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               TextColor="MediumPurple"/>
+        <Image Source="superficie.png" 
+               HeightRequest="200"
+               WidthRequest="300"
+               HorizontalOptions="Center"/>
+
+        <Label Text="Digite la base de el triangulo"
+               FontSize="15"/>
+        <Entry x:Name="baseTri" Placeholder="Base"
+               Keyboard="Numeric"/>
+
+        <Label Text="Digite la altura de el triangulo"
+               FontSize="15"/>
+        <Entry x:Name="altTri" Placeholder="Altura"
+               Keyboard="Numeric"/>
+
+        <Label Text="La superficie es: "
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               TextColor="MediumPurple"
+               FontSize="18"
+               x:Name="supTri"/>
+
+        <Button Text="Calcular Superficie"
+                BackgroundColor="White"
+                BorderColor="MediumPurple"
+                BorderWidth="3"
+                CornerRadius="30"
+                Clicked="Button_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

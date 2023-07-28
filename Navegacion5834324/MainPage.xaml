@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacion5834324.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+
+            <Image Source="dotnet_bot.png" HeightRequest="200" HorizontalOptions="Center"/>
+
+
+            <Button x:Name="Cambiobtn"
+                    Text="App Cambio"
+                    BackgroundColor="White"
+                    BorderColor="MediumPurple"
+                    BorderWidth="3"
+                    CornerRadius="30"
+                    Clicked="Cambiobtn_Clicked"/>
+
+            <Button x:Name="Superficiebtn"
+                    Text="App Superficie"
+                    BorderColor="MediumPurple"
+                    BorderWidth="3"
+                    CornerRadius="30"
+                    Clicked="Superficiebtn_Clicked"/>
+
+            <Button x:Name="Dinobtn"
+                    Text="App Dino"
+                    BackgroundColor="White"
+                    BorderColor="MediumPurple"
+                    BorderWidth="3"
+                    CornerRadius="30"
+                    Clicked="Dinobtn_Clicked"/>
+
+            <Button x:Name="Gasbtn"
+                    Text="App Gas"
+                    BorderColor="MediumPurple"
+                    BorderWidth="3"
+                    CornerRadius="30"
+                    Clicked="Gasbtn_Clicked"/>
+
+            <Button x:Name="Acercabtn"
+                    Text="Acerca de nosotros"
+                    BorderColor="MediumPurple"
+                    BorderWidth="3"
+                    CornerRadius="30"
+                    Clicked="Acercabtn_Clicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
